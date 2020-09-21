@@ -57,9 +57,9 @@ sleep 2
 
 if [ ! -e string_session.py ]; then
     echo -e "\nDownloading string_session.py\n"
-    wget https://raw.githubusercontent.com/keselekpermen69/UserButt/sql-extended/string_session.py
+    wget https://raw.githubusercontent.com/reejit/CaptainAmericaUserBot/master/string_session.py
 
-    echo -e "\nRunning script...\n"
+    echo -e "\nRunning script...\n"y
     sleep 1
     python3 string_session.py
 else
